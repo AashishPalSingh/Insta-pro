@@ -13,7 +13,7 @@ class Diff extends React.Component {
     console.log(delta);
     document.getElementById(
       "the-diff"
-    ).innerHTML = jsondiffpatch.formatters.annotated.format(delta, dataOld);
+    ).innerHTML = jsondiffpatch.formatters.html.format(delta, dataOld);
     jsondiffpatch.formatters.html.showUnchanged();
     jsondiffpatch.formatters.html.hideUnchanged();
   }

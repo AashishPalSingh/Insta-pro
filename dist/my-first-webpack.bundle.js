@@ -30560,7 +30560,7 @@ var Diff = /*#__PURE__*/function (_React$Component) {
       console.log(jsondiffpatch__WEBPACK_IMPORTED_MODULE_12__);
       var delta = jsondiffpatch__WEBPACK_IMPORTED_MODULE_12__["diff"](_connections_old_json__WEBPACK_IMPORTED_MODULE_11__, _connections_json__WEBPACK_IMPORTED_MODULE_10__);
       console.log(delta);
-      document.getElementById("the-diff").innerHTML = jsondiffpatch__WEBPACK_IMPORTED_MODULE_12__["formatters"].annotated.format(delta, _connections_old_json__WEBPACK_IMPORTED_MODULE_11__);
+      document.getElementById("the-diff").innerHTML = jsondiffpatch__WEBPACK_IMPORTED_MODULE_12__["formatters"].html.format(delta, _connections_old_json__WEBPACK_IMPORTED_MODULE_11__);
       jsondiffpatch__WEBPACK_IMPORTED_MODULE_12__["formatters"].html.showUnchanged();
       jsondiffpatch__WEBPACK_IMPORTED_MODULE_12__["formatters"].html.hideUnchanged();
     }
